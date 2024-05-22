@@ -13,7 +13,7 @@ interface Project {
 }
 
 const Projects = () => {
-    const [projects, setProjects] = useState<Project[]>([]); 
+    const [projects, setProjects] = useState<Project[]>([]);
 
     useEffect(() => {
         fetch('https://api.github.com/users/tihernan/repos')
@@ -56,5 +56,3 @@ const Projects = () => {
 }
 
 export default Projects;
-sssssssssss
-/*paco*/ 

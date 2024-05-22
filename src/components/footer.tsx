@@ -14,7 +14,7 @@ export default function Footer() {
                             className="text-gray-400 hover:text-white transition-colors duration-300"
                             >tiffale2013@gmail.com</a>
                             <br></br>
-                            <a href="/user" className="text-gray-400 hover:text-white transition-colors duration-300">
+                            <a href="/personal" className="text-gray-400 hover:text-white transition-colors duration-300">
                             Curriculum</a>
                         </ul>
                     </div>

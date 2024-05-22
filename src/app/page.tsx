@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import Hero from "@/components/hero";
 import homeImage from "/public/images/cat.jpg"
 

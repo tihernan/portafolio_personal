@@ -79,7 +79,7 @@ body {
   display: none;
   position: absolute;
   background-color: #494949;
-  min-width: 300px; /* Adjust as needed */
+  min-width: 400px; /* Adjust as needed */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
   top: 110%; /* Position below the parent */
@@ -94,15 +94,6 @@ body {
   font-size: 20px;
 }
 
-/* .dropdown-content a:hover {
-  font-display:;
-}
-
-/* Show the dropdown menu on hover
-.nav-link:hover .dropdown-content {
-  display: block;
-}*/
-  
 
   /*Footer*/
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');

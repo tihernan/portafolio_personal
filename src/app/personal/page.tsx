@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import Image from 'next/image';
 
-export default function User() {
+export default function Personal() {
     return (
         <div className="container">
             {/* Sección superior */}
