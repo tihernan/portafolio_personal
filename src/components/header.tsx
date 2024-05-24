@@ -10,12 +10,7 @@ export default function Header() {
           <Link href="/" className="nav-link">Inicio</Link>
           <Link href="/personal" className="nav-link">Perfil</Link>
           <Link href="/proyects" className="nav-link">Proyectos</Link>
-          <div className="nav-link relative group">
-            <a className="nav-link">Contrátame</a>
-            <div className="dropdown-content absolute hidden group-hover:block">
-              <a className="text-gray-400 hover:text-white transition-colors duration-300" href='mailto: tiffale2013@gnail.com'>Contáctame aquí</a>
-            </div>
-          </div>
+          <a href='mailto: tiffale2013@gnail.com' className="nav-link">Contáctame aquí</a>
         </div>
       </nav>
     </div>
