@@ -43,7 +43,7 @@ body {
 
 .nav-content {
   display: flex;
-  justify-content: flex-start; /* Align items to the left */
+  justify-content: flex-start;
   align-items: center; /* Center items vertically */
   max-width: 1600px; /* Adjust this value as needed */
   margin-top: 10px;
