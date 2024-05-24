@@ -70,20 +70,20 @@ body {
 .nav-link {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem; /* text-2xl */
-  position: relative; /* Required for dropdown */
+  font-size: 1.5rem;
+  position: relative;
 }
 
-/* Dropdown Menu */
+/*Menu desplegable*/
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #494949;
-  min-width: 400px; /* Adjust as needed */
+  min-width: 300px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  top: 110%; /* Position below the parent */
-  left: 80px; /* Align to the left of the parent */
+  top: 110%;
+  left: 80px;
 }
 
 .dropdown-content a {

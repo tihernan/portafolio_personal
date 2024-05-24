@@ -13,7 +13,7 @@ export default function Header() {
           <div className="nav-link relative group">
             <a className="nav-link">Contrátame</a>
             <div className="dropdown-content absolute hidden group-hover:block">
-              <a className="text-gray-400 hover:text-white transition-colors duration-300" href='mailto: tiffale2013@gnail.com'>Para contratarme, contáctame aquí</a>
+              <a className="text-gray-400 hover:text-white transition-colors duration-300" href='mailto: tiffale2013@gnail.com'>Contáctame aquí</a>
             </div>
           </div>
         </div>
