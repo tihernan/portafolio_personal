@@ -79,19 +79,18 @@ body {
 @media (max-width: 1024px) {
   .nav-content {
     padding: 0 1rem;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
   }
 
   .nav-links {
     gap: 1rem;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
   }
 
   .header img.foto {
-    width: 70px;
-    height: 70px;
+    max-width: 80px;
     margin: 0 auto;
     margin-left: 0; 
   }
@@ -104,13 +103,13 @@ body {
 @media (max-width: 768px) {
   .nav-content {
     padding: 0 1rem;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
   }
 
   .nav-links {
     gap: 1rem;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
   }
 
@@ -129,13 +128,13 @@ body {
 @media (max-width: 480px) {
   .nav-content {
     padding: 0 0.5rem;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
   }
 
   .nav-links {
     gap: 0.5rem;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
   }
 
@@ -291,13 +290,15 @@ html {
   .footer img.logo {
     margin-top: 0;
     margin-bottom: 30px;
-    width: 150px;
-    height: 150px;
+    max-width: 100px;
   }
 
-  .footer-col {
-    text-align: center;
+  .row {
+    justify-content: left;
+    align-items: center;
+    text-align: left;
   }
+
 }
 
 @media (max-width: 574px) {
