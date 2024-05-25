@@ -21,7 +21,7 @@ export default function Footer() {
                     <img src="/images/logo1.png" alt="Mi Logo" className="logo"/>
                     <div className="footer-col">
                         <h4>Redes Sociales</h4>
-                        <div className="social-links">
+                        <div className="social-links a">
                             <a href="https://www.facebook.com/tiffany.hernandez.3990/">
                                 <img src="/images/face.png" alt="Facebook" />
                             </a>
