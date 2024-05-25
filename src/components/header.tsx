@@ -10,7 +10,7 @@ export default function Header() {
           <Link href="/" className="nav-link">Inicio</Link>
           <Link href="/personal" className="nav-link">Perfil</Link>
           <Link href="/proyects" className="nav-link">Proyectos</Link>
-          <a href='mailto: tiffale2013@gnail.com' className="nav-link">Contáctame aquí</a>
+          <a href='mailto: tiffale2013@gmail.com' className="nav-link">Contáctame aquí</a>
         </div>
       </nav>
     </div>
