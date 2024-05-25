@@ -80,18 +80,20 @@ body {
   .nav-content {
     padding: 0 1rem;
     justify-content: center; /* Centramos horizontalmente el contenido */
+    flex-direction: row; /* Aseguramos que los elementos estén en una fila */
   }
 
   .nav-links {
     gap: 1rem;
     justify-content: center; /* Centramos horizontalmente los enlaces */
+    flex-direction: row; /* Aseguramos que los enlaces estén en una fila */
   }
 
   .header img.foto {
     width: 150px;
     height: 150px;
     margin: 0 auto; /* Centramos la imagen */
-    margin-left: 30px;
+    margin-left: 0; /* Eliminamos el margen izquierdo */
   }
 
   .nav-link {
@@ -101,23 +103,22 @@ body {
 
 @media (max-width: 768px) {
   .nav-content {
-    flex-direction: column;
-    align-items: center;
     padding: 0 1rem;
     justify-content: center;
+    flex-direction: row; /* Aseguramos que los elementos estén en una fila */
   }
 
   .nav-links {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+    gap: 1rem;
+    justify-content: center; /* Centramos horizontalmente los enlaces */
+    flex-direction: row; /* Aseguramos que los enlaces estén en una fila */
   }
 
   .header img.foto {
     width: 130px;
     height: 130px;
     margin: 0 auto;
-    margin-left: 30px;
+    margin-left: 0; /* Eliminamos el margen izquierdo */
   }
 
   .nav-link {
@@ -129,24 +130,27 @@ body {
   .nav-content {
     padding: 0 0.5rem;
     justify-content: center; /* Centramos horizontalmente el contenido */
+    flex-direction: row; /* Aseguramos que los elementos estén en una fila */
   }
 
   .nav-links {
     gap: 0.5rem;
     justify-content: center; /* Centramos horizontalmente los enlaces */
+    flex-direction: row; /* Aseguramos que los enlaces estén en una fila */
   }
 
   .header img.foto {
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    margin-left: 30px;
+    margin-left: 0; /* Eliminamos el margen izquierdo */
   }
 
   .nav-link {
     font-size: 1rem;
   }
 }
+
 
 /*Footer*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -271,13 +275,13 @@ html {
 /* responsive */
 @media (max-width: 767px) {
   .footer-container {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row; /* Mantenemos en una fila */
+    justify-content: center; /* Centramos horizontalmente */
     text-align: center; /* Centramos el texto */
   }
 
   .footer-col {
-    width: 50%;
+    width: auto; /* Ajustamos el ancho automáticamente */
     margin-bottom: 30px;
     max-width: 100%;
     text-align: center; /* Centramos el contenido */
@@ -297,13 +301,13 @@ html {
 
 @media (max-width: 574px) {
   .footer-container {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row; /* Mantenemos en una fila */
+    justify-content: center; /* Centramos horizontalmente */
     text-align: center; /* Centramos el texto */
   }
 
   .footer-col {
-    width: 100%;
+    width: auto; /* Ajustamos el ancho automáticamente */
     text-align: center; /* Centramos el contenido */
   }
 
@@ -314,9 +318,10 @@ html {
   }
 
   .row {
-    flex-direction: column;
+    flex-direction: row; /* Mantenemos en una fila */
+    justify-content: center; /* Centramos horizontalmente */
     align-items: center;
     text-align: center; /* Centramos el texto */
-    justify-content: center;
   }
 }
+
