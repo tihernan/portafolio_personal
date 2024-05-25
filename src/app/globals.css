@@ -83,12 +83,15 @@ body {
   }
   
   .nav-links {
-    flex-direction: row;
+    flex-direction: column;
     gap: 0.5rem; 
   }
 
   .header img.foto {
-    max-width: 20px;
+    max-width: 50px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
   }
 
   .nav-link {
