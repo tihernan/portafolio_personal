@@ -89,6 +89,7 @@ body {
 
   .header img.logo {
     max-width: 50px;
+    align-items: center;
   }
 
   .nav-link {
