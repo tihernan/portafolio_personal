@@ -79,3 +79,33 @@ ul {
     padding: 10px;
     border-left: 5px solid #333;
 }
+
+/* Responsive del perfil */
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 20px 0;
+    }
+    
+    .header img.foto {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .header h1 {
+        font-size: 20px; 
+        margin-top: 10px;
+    }
+    
+    .content {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        order: -1;
+        margin-bottom: 0;
+    }
+
+    .main {
+        order: 1;
+    }
+}

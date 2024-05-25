@@ -87,18 +87,14 @@ body {
     gap: 0.5rem; 
   }
 
-  .header img.foto {
+  .header img.logo {
     max-width: 50px;
-    margin-left: 120px;
-    align-items: center;
-    justify-content: center;
   }
 
   .nav-link {
     font-size: 1rem;
   }
 }
-
 
 
 /*Footer*/
