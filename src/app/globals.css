@@ -41,7 +41,7 @@ body {
 .nav-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   max-width: 1600px;
   margin: 10px auto;
   padding: 0 2rem;
@@ -49,7 +49,6 @@ body {
 
 .nav-links {
   display: flex;
-  align-items: center;
   gap: 2rem;
   position: relative;
 }
