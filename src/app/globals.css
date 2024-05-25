@@ -91,6 +91,7 @@ body {
     width: 150px;
     height: 150px;
     margin: 0 auto; /* Centramos la imagen */
+    margin-left: 30px;
   }
 
   .nav-link {
@@ -103,19 +104,20 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 0 1rem;
-    justify-content: center; /* Centramos horizontalmente el contenido */
+    justify-content: center;
   }
 
   .nav-links {
     flex-direction: column;
     width: 100%;
-    align-items: center; /* Centramos horizontalmente los enlaces */
+    align-items: center;
   }
 
   .header img.foto {
     width: 130px;
     height: 130px;
-    margin: 0 auto; /* Centramos la imagen */
+    margin: 0 auto;
+    margin-left: 30px;
   }
 
   .nav-link {
@@ -137,7 +139,8 @@ body {
   .header img.foto {
     width: 100px;
     height: 100px;
-    margin: 0 auto; /* Centramos la imagen */
+    margin: 0 auto;
+    margin-left: 30px;
   }
 
   .nav-link {
@@ -314,5 +317,6 @@ html {
     flex-direction: column;
     align-items: center;
     text-align: center; /* Centramos el texto */
+    justify-content: center;
   }
 }
