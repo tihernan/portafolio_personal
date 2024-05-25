@@ -79,13 +79,13 @@ body {
 @media (max-width: 1024px) {
   .nav-content {
     padding: 0 1rem;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row;
   }
 
   .nav-links {
     gap: 1rem;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row;
   }
 
@@ -104,13 +104,13 @@ body {
 @media (max-width: 768px) {
   .nav-content {
     padding: 0 1rem;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row;
   }
 
   .nav-links {
     gap: 1rem;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row;
   }
 
@@ -129,13 +129,13 @@ body {
 @media (max-width: 480px) {
   .nav-content {
     padding: 0 0.5rem;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row;
   }
 
   .nav-links {
     gap: 0.5rem;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row;
   }
 
