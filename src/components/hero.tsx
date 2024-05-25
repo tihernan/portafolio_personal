@@ -16,11 +16,10 @@ export default function Hero(props: HeroProps) {
         alt={props.imgAlt}
         layout="fill"
         objectFit="cover"
-        className="object-center object-cover lg:object-top"
       />
      </div>
-     <div className="pt-12 md:pt-48 flex justify-center items-center z-20">
-       <h1 className="text-white text-4xl md:text-6xl text-center">{props.title}</h1>
+     <div className="pt-25 md:pt-48 flex justify-center items-center z-20">
+       <h1 className="text-white text-4xl md:text-6xl text-center align-">{props.title}</h1>
      </div>
      <div className="absolute inset-0 bg-gradient-to-r from-[#24262b]"></div>
     </div>
