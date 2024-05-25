@@ -19,7 +19,7 @@ export default function Hero(props: HeroProps) {
       />
      </div>
      <div className="pt-12 md:pt-48 flex justify-center items-center z-20">
-       <h1 className="text-white text-4xl md:text-6xl text-center align-middle mb-4">{props.title}</h1>
+       <h1 className="text-white text-4xl md:text-6xl text-center align-middle mb-8">{props.title}</h1>
      </div>
      <div className="absolute inset-0 bg-gradient-to-r from-[#24262b]"></div>
     </div>
