@@ -87,13 +87,15 @@ ul {
     }
     
     .header img.foto {
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
     }
     
     .header h1 {
         font-size: 20px; 
-        margin-top: 10px;
+        margin-top: 25px;
+        text-align: left;
+        margin-left: 20px;
     }
     
     .content {
@@ -102,10 +104,14 @@ ul {
 
     .sidebar {
         order: -1;
-        margin-bottom: 0;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .main {
         order: 1;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
