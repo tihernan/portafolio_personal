@@ -7,6 +7,9 @@ export default function Header() {
       <nav className="nav-content">
         <div className="nav-links">
           <img src="/images/logo1.png" alt="Mi Logo" className="logo" width={150} height={150} />
+          <div className="menu-icon" id="menu-icon">
+            &#9776;
+          </div>
           <Link href="/" className="nav-link">Inicio</Link>
           <Link href="/personal" className="nav-link">Perfil</Link>
           <Link href="/proyects" className="nav-link">Proyectos</Link>
