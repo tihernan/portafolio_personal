@@ -16,7 +16,7 @@ const Projects = () => {
     const [projects, setProjects] = useState<Project[]>([]);
 
     useEffect(() => {
-        fetch('https://api.github.com/users/tihernan/repos')
+        fetch(`https://api.github.com/users/${process.env.NEXT_PUBLIC_USERNAME}/repos`)
             .then(response => response.json())
             .then((data: Project[]) => setProjects(data))
             .catch(error => console.error('Error fetching GitHub projects:', error));
