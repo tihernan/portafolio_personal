@@ -16,6 +16,7 @@ export default function Hero(props: HeroProps) {
         alt={props.imgAlt}
         layout="fill"
         objectFit="cover"
+        className="object-center object-cover lg:object-top"
       />
      </div>
      <div className="pt-12 md:pt-48 flex justify-center items-center z-20">
