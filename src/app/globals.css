@@ -89,13 +89,13 @@ body {
 
   .header img.foto {
     max-width: 50px;
-    margin-left: 40px;
+    margin-left: 120px;
     align-items: center;
     justify-content: center;
   }
 
   .nav-link {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
 
